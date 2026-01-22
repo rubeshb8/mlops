@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import joblib
 import os
-from pathlib import Path
+
 
 app = Flask(__name__)
 MODEL_PATH = Path("artifacts/model.pkl")
